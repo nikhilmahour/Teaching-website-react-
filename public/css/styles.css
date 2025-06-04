@@ -22,12 +22,16 @@
 }
 
 .nav-menu {
+  /* position: fixed; */
   margin-top: 10px;
   height: 40px;
   margin-left: 20px;
   font-size: 30px;
   cursor: pointer;
   display: none;
+}
+main{
+  background-color: #00e1ff7a;
 }
 
 .top-nav {
@@ -45,6 +49,7 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 10px 40px;
+  background-color: #21e2fc96;
 }
 
 .nav-links ul {

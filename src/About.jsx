@@ -1,35 +1,35 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 
 function About() {
-    return (
-        <>
-            <header>
-                <nav>
-                    <div class="top-nav">
-                        <div onclick="openSideMenu()" class="nav-menu">
-                            <i class="fa-solid fa-bars"></i>
-                        </div>
-                        <div class="nav-items">
-                            <div class="nav-links">
-                                <ul>
-                                <li><a href="index.html">Home</a></li>
-                                    <li><a href="events.html">Events</a></li>
-                                    <li><a href="members.html">Team</a></li>
-                                    <li><Link to="about.html">About</Link></li>
-                                </ul>
-                            </div>
-                            <div class="phone">
-                                <a href="tel:+254768133220">
-                                    <i class="fa-solid fa-phone"></i>
-                                    <span>+254768133220</span>
-                                </a>
-                            </div>
-                        </div>
+  return (
+    <>
+      
+    <header>
+        <nav>
+            <div class="top-nav">
+                <div onclick="openSideMenu()" class="nav-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="nav-items">
+                    <div class="nav-links">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="events.html">Events</a></li>
+                            <li><a href="members.html">Team</a></li>
+                            <li><a href="about.html">About</a></li>
+                        </ul>
                     </div>
-                </nav>
-            </header>
-            {/* <!--
+                    <div class="phone">
+                        <a href="tel:+254768133220">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+254768133220</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    {/* <!-- 
 =============================
 ABOUT HERO SECTION
 ============================= --> */}
@@ -38,7 +38,7 @@ ABOUT HERO SECTION
         <section>
             <div class="about-hero">
                 <div class="about-hero-left">
-                    <h1>Learn from anywhere <br/>in the world</h1>
+                    <h1>Learn from Our Teaching  Service <br/>Anywhere in the world</h1>
                     <p>Our platform offers learning to student all over the world. We offer courses in different fields
                         in
                         tech including machine learning web development deep learning mobile development payment
@@ -51,7 +51,7 @@ ABOUT HERO SECTION
                 <div class="about-hero-right">
                     <div class="image">
                         <img src="images/uploaded-images/profiles/profile.png"
-                            alt=""/>
+                            alt=""></img>
                     </div>
                     <div class="spot1">
 
@@ -81,7 +81,7 @@ ABOUT HERO SECTION
 
             <div class="discovery-section">
                 <div class="card">
-                    <img src="images/uploaded-images/course.png" alt=""/>
+                    <img src="images/uploaded-images/course.png" alt=""></img>
                     <div class="card-content">
                         <p>Courses</p>
                         <p>The courses we offer are apporved and they cover all the concept form basic to advanced. It
@@ -91,7 +91,7 @@ ABOUT HERO SECTION
                 </div>
 
                 <div class="card">
-                    <img src="images/uploaded-images/course.png" alt=""/>
+                    <img src="images/uploaded-images/course.png" alt=""></img>
                     <div class="card-content">
                         <p>Members</p>
                         <p>The courses we offer are apporved and they cover all the concept form basic to advanced. It
@@ -101,7 +101,7 @@ ABOUT HERO SECTION
                 </div>
 
                 <div class="card">
-                    <img src="images/uploaded-images/course.png" alt=""/>
+                    <img src="images/uploaded-images/course.png" alt=""></img>
                     <div class="card-content">
                         <p>Events</p>
                         <p>The courses we offer are apporved and they cover all the concept form basic to advanced. It
@@ -111,7 +111,7 @@ ABOUT HERO SECTION
                 </div>
 
                 <div class="card">
-                    <img src="images/uploaded-images/course.png" alt=""/>
+                    <img src="images/uploaded-images/course.png" alt=""></img>
                     <div class="card-content">
                         <p></p>
                         <p>The courses we offer are apporved and they cover all the concept form basic to advanced. It
@@ -146,7 +146,7 @@ ABOUT HERO SECTION
 
                             <tr>
                                 <td>
-                                    <img src="images/uploaded-images/lessonsimage/event-1.png" alt=""/>
+                                    <img src="images/uploaded-images/lessonsimage/event-1.png" alt=""></img>
                                 </td>
                                 <td>Courses</td>
                                 <td>The courses we offer are apporved and they cover all the concept form basic to
@@ -161,7 +161,7 @@ ABOUT HERO SECTION
 
                             <tr>
                                 <td>
-                                    <img src="images/uploaded-images/lessonsimage/event-1.png" alt=""/>
+                                    <img src="images/uploaded-images/lessonsimage/event-1.png" alt=""></img>
                                 </td>
                                 <td>Workshops</td>
                                 <td>The courses we offer are apporved and they cover all the concept form basic to
@@ -176,7 +176,7 @@ ABOUT HERO SECTION
 
                             <tr>
                                 <td>
-                                    <img src="images/uploaded-images/lessonsimage/event-1.png" alt=""/>
+                                    <img src="images/uploaded-images/lessonsimage/event-1.png" alt=""></img>
                                 </td>
                                 <td>Guided projects</td>
                                 <td>The courses we offer are apporved and they cover all the concept form basic to
@@ -191,7 +191,7 @@ ABOUT HERO SECTION
 
                             <tr>
                                 <td>
-                                    <img src="images/uploaded-images/lessonsimage/event-1.png" alt=""/>
+                                    <img src="images/uploaded-images/lessonsimage/event-1.png" alt=""></img>
                                 </td>
                                 <td>Reading and discussion groups</td>
                                 <td>The courses we offer are apporved and they cover all the concept form basic to
@@ -206,7 +206,7 @@ ABOUT HERO SECTION
 
                             <tr>
                                 <td>
-                                    <img src="images/uploaded-images/lessonsimage/event-1.png" alt=""/>
+                                    <img src="images/uploaded-images/lessonsimage/event-1.png" alt=""></img>
                                 </td>
                                 <td>Presentations</td>
                                 <td>The courses we offer are apporved and they cover all the concept form basic to
@@ -221,7 +221,7 @@ ABOUT HERO SECTION
 
                             <tr>
                                 <td>
-                                    <img src="images/uploaded-images/lessonsimage/event-1.png" alt=""/>
+                                    <img src="images/uploaded-images/lessonsimage/event-1.png" alt=""></img>
                                 </td>
                                 <td>Events</td>
                                 <td>The courses we offer are apporved and they cover all the concept form basic to
@@ -236,7 +236,7 @@ ABOUT HERO SECTION
 
                             <tr>
                                 <td>
-                                    <img src="images/uploaded-images/lessonsimage/event-1.png" alt=""/>
+                                    <img src="images/uploaded-images/lessonsimage/event-1.png" alt=""></img>
                                 </td>
                                 <td>Activities</td>
                                 <td>The courses we offer are apporved and they cover all the concept form basic to
@@ -251,7 +251,7 @@ ABOUT HERO SECTION
 
                             <tr>
                                 <td>
-                                    <img src="images/uploaded-images/lessonsimage/event-1.png" alt=""/>
+                                    <img src="images/uploaded-images/lessonsimage/event-1.png" alt=""></img>
                                 </td>
                                 <td>Specializations</td>
                                 <td>The courses we offer are apporved and they cover all the concept form basic to
@@ -289,7 +289,7 @@ ABOUT HERO SECTION
                                     suited to beginners and upskillers alike.</p>
                                 <span class="line"></span>
                             </li>
-
+                            
                             <li>
                                 <div class="question-arrow">
                                     <span class="question">Assets and documentation</span>
@@ -317,7 +317,7 @@ ABOUT HERO SECTION
                             <li>
                                 <div class="question-arrow">
                                     <span class="question">Assets and documentation</span>
-                                    <i class="fa-solid fa-chevron-down arrow"></i>
+                                    <i class="fa-solid fa-chevron-down arrow"></i>  
                                 </div>
                                 <p>Introduction video</p>
                                 <p>Presentation slide</p>
@@ -366,7 +366,7 @@ ABOUT HERO SECTION
             <p> Designed by <a href="https://youtube.com/@devalentineomonya" target="_blank">Valentine Omonya</a></p>
         </div>
     </footer>
-
+    
     </>
   )
 }

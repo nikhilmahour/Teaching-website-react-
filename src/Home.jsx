@@ -8,22 +8,23 @@ function Home() {
 
             <header>
                 <nav>
-                    <div class="top-nav">
-                        <div onclick="openSideMenu()" class="nav-menu">
-                            <i class="fa-solid fa-bars"></i>
+                    <div className="top-nav">
+                        <div onclick="openSideMenu()" className="nav-menu">
+                            <i className="fa-solid fa-bars"></i>
                         </div>
-                        <div class="nav-items">
-                            <div class="nav-links">
+                        <div className="nav-items">
+                            <div className="nav-links">
                                 <ul>
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="events.html">Events</a></li>
                                     <li><a href="members.html">Team</a></li>
-                                    <li><Link to="about.html">About</Link></li>
+                                    <li><a href="about.html">About</a></li>
+                                    {/* <li><Link to="about.html">About</Link></li> */}
                                 </ul>
                             </div>
-                            <div class="phone">
+                            <div className="phone">
                                 <a href="tel:+254768133220">
-                                    <i class="fa-solid fa-phone"></i>
+                                    <i className="fa-solid fa-phone"></i>
                                     <span>+254768133220</span>
                                 </a>
                             </div>
@@ -36,12 +37,12 @@ function Home() {
                 HERO SECTION
 ============================== --> */}
                 <section>
-                    <div class="hero">
+                    <div className="hero">
                         <p>Take Your Skills <br />To the next Level.</p>
-                        <div class="get-started">
-                            <a href="#" class="btn-get-started">
+                        <div className="get-started">
+                            <a href="#" className="btn-get-started">
                                 <span>Get Started</span>
-                                <i class="fas fa-arrow-right "></i>
+                                <i className="fas fa-arrow-right "></i>
                             </a>
                         </div>
                     </div>
@@ -50,15 +51,15 @@ function Home() {
 COURSE SECTION
 ============================== --> */}
                 <section>
-                    <div class="course-upper-section">
+                    <div className="course-upper-section">
                         <p>We offer the best courses for you.</p>
                         <button href="#">Choose your best course</button>
                     </div>
-                    <div class="columns">
+                    <div className="columns">
 
-                        <div class="card">
+                        <div className="card">
                             <img src="images/uploaded-images/course.png" alt="" />
-                            <div class="card-content">
+                            <div className="card-content">
                                 <p>UX Design Program</p>
                                 <p>Design&#46;6th September</p>
                                 <a href="view-more.html">View More</a>
@@ -67,9 +68,9 @@ COURSE SECTION
                                 <span>Design</span>
                             </div>
                         </div>
-                        <div class="card">
+                        <div className="card">
                             <img src="images/uploaded-images/course.png" alt="" />
-                            <div class="card-content">
+                            <div className="card-content">
                                 <p>UX Design Program</p>
                                 <p>Design&#46;6th September</p>
                                 <a href="view-more.html">View More</a>
@@ -78,21 +79,9 @@ COURSE SECTION
                                 <span>Design</span>
                             </div>
                         </div>
-                        <div class="card">
+                        <div className="card">
                             <img src="images/uploaded-images/course.png" alt="" />
-                            <div class="card-content">
-                                <p>UX Design Program</p>
-                                <p>Design&#46;6th September</p>
-                                <a href="view-more.html">View More</a>
-                                <span>I+D</span>
-                                <span>Accessibility</span>
-                                <span>Design</span>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <img src="images/uploaded-images/course.png" alt="" />
-                            <div class="card-content">
+                            <div className="card-content">
                                 <p>UX Design Program</p>
                                 <p>Design&#46;6th September</p>
                                 <a href="view-more.html">View More</a>
@@ -102,9 +91,9 @@ COURSE SECTION
                             </div>
                         </div>
 
-                        <div class="card">
+                        <div className="card">
                             <img src="images/uploaded-images/course.png" alt="" />
-                            <div class="card-content">
+                            <div className="card-content">
                                 <p>UX Design Program</p>
                                 <p>Design&#46;6th September</p>
                                 <a href="view-more.html">View More</a>
@@ -114,9 +103,9 @@ COURSE SECTION
                             </div>
                         </div>
 
-                        <div class="card">
+                        <div className="card">
                             <img src="images/uploaded-images/course.png" alt="" />
-                            <div class="card-content">
+                            <div className="card-content">
                                 <p>UX Design Program</p>
                                 <p>Design&#46;6th September</p>
                                 <a href="view-more.html">View More</a>
@@ -125,9 +114,10 @@ COURSE SECTION
                                 <span>Design</span>
                             </div>
                         </div>
-                        <div class="card">
+
+                        <div className="card">
                             <img src="images/uploaded-images/course.png" alt="" />
-                            <div class="card-content">
+                            <div className="card-content">
                                 <p>UX Design Program</p>
                                 <p>Design&#46;6th September</p>
                                 <a href="view-more.html">View More</a>
@@ -136,9 +126,20 @@ COURSE SECTION
                                 <span>Design</span>
                             </div>
                         </div>
-                        <div class="card">
+                        <div className="card">
                             <img src="images/uploaded-images/course.png" alt="" />
-                            <div class="card-content">
+                            <div className="card-content">
+                                <p>UX Design Program</p>
+                                <p>Design&#46;6th September</p>
+                                <a href="view-more.html">View More</a>
+                                <span>I+D</span>
+                                <span>Accessibility</span>
+                                <span>Design</span>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <img src="images/uploaded-images/course.png" alt="" />
+                            <div className="card-content">
                                 <p>UX Design Program</p>
                                 <p>Design&#46;6th September</p>
                                 <a href="view-more.html">View More</a>
@@ -155,111 +156,111 @@ COURSE SECTION
          ==============================--> */}
 
                 <section>
-                    <div class="course-upper-section">
+                    <div className="course-upper-section">
                         <p>The best active trainers are here</p>
                     </div>
 
-                    <div class="columns">
+                    <div className="columns">
 
-                        <div class="card">
-                            <div class="profile-pic">
+                        <div className="card">
+                            <div className="profile-pic">
                                 <img src="images/uploaded-images/profiles/profile.png" alt="" />
                             </div>
                             <img src="images/uploaded-images/course.png" alt="" />
-                            <div class="profile-content">
+                            <div className="profile-content">
                                 <p>Valentine Omonya</p>
                                 <span>Nairobi, Kenya</span>
                                 <span>38k followers</span>
-                                <button><i class="fa fa-plus" aria-hidden="true"></i>Follow</button>
+                                <button><i className="fa fa-plus" aria-hidden="true"></i>Follow</button>
                             </div>
                         </div>
 
-                        <div class="card">
-                            <div class="profile-pic">
+                        <div className="card">
+                            <div className="profile-pic">
                                 <img src="images/uploaded-images/profiles/profile.png" alt="" />
                             </div>
                             <img src="images/uploaded-images/course.png" alt="" />
-                            <div class="profile-content">
+                            <div className="profile-content">
                                 <p>Valentine Omonya</p>
                                 <span>Nairobi, Kenya</span>
                                 <span>38k followers</span>
-                                <button><i class="fa fa-plus" aria-hidden="true"></i>Follow</button>
+                                <button><i className="fa fa-plus" aria-hidden="true"></i>Follow</button>
                             </div>
                         </div>
 
-                        <div class="card">
-                            <div class="profile-pic">
+                        <div className="card">
+                            <div className="profile-pic">
                                 <img src="images/uploaded-images/profiles/profile.png" alt="" />
                             </div>
                             <img src="images/uploaded-images/course.png" alt="" />
-                            <div class="profile-content">
+                            <div className="profile-content">
                                 <p>Valentine Omonya</p>
                                 <span>Nairobi, Kenya</span>
                                 <span>38k followers</span>
-                                <button><i class="fa fa-plus" aria-hidden="true"></i>Follow</button>
+                                <button><i className="fa fa-plus" aria-hidden="true"></i>Follow</button>
                             </div>
                         </div>
 
-                        <div class="card">
-                            <div class="profile-pic">
+                        <div className="card">
+                            <div className="profile-pic">
                                 <img src="images/uploaded-images/.profpng" alt="" />
                             </div>
                             <img src="images/uploaded-images/course.png" alt="" />
-                            <div class="profile-content">
+                            <div className="profile-content">
                                 <p>Valentine Omonya</p>
                                 <span>Nairobi, Kenya</span>
                                 <span>38k followers</span>
-                                <button><i class="fa fa-plus" aria-hidden="true"></i>Follow</button>
+                                <button><i className="fa fa-plus" aria-hidden="true"></i>Follow</button>
                             </div>
                         </div>
 
-                        <div class="card">
-                            <div class="profile-pic">
+                        <div className="card">
+                            <div className="profile-pic">
                                 <img src="images/uploaded-images/profiles/profile.png" alt="" />
                             </div>
                             <img src="images/uploaded-images/course.png" alt="" />
-                            <div class="profile-content">
+                            <div className="profile-content">
                                 <p>Valentine Omonya</p>
                                 <span>Nairobi, Kenya</span>
                                 <span>38k followers</span>
-                                <button><i class="fa fa-plus" aria-hidden="true"></i>Follow</button>
+                                <button><i className="fa fa-plus" aria-hidden="true"></i>Follow</button>
                             </div>
                         </div>
 
-                        <div class="card">
-                            <div class="profile-pic">
+                        <div className="card">
+                            <div className="profile-pic">
                                 <img src="images/uploaded-images/profiles/profile.png" alt="" />
                             </div>
                             <img src="images/uploaded-images/course.png" alt="" />
-                            <div class="profile-content">
+                            <div className="profile-content">
                                 <p>Valentine Omonya</p>
                                 <span>Nairobi, Kenya</span>
                                 <span>38k followers</span>
-                                <button><i class="fa fa-plus" aria-hidden="true"></i>Follow</button>
+                                <button><i className="fa fa-plus" aria-hidden="true"></i>Follow</button>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="profile-pic">
+                        <div className="card">
+                            <div className="profile-pic">
                                 <img src="images/uploaded-images/profiles/profile.png" alt="" />
                             </div>
                             <img src="images/uploaded-images/course.png" alt="" />
-                            <div class="profile-content">
+                            <div className="profile-content">
                                 <p>Valentine Omonya</p>
                                 <span>Nairobi, Kenya</span>
                                 <span>38k followers</span>
-                                <button><i class="fa fa-plus" aria-hidden="true"></i>Follow</button>
+                                <button><i className="fa fa-plus" aria-hidden="true"></i>Follow</button>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="profile-pic">
+                        <div className="card">
+                            <div className="profile-pic">
                                 <img src="images/uploaded-images/profiles/profile.png" alt="" />
                             </div>
                             <img src="images/uploaded-images/course.png" alt="" />
-                            <div class="profile-content">
+                            <div className="profile-content">
                                 <p>Valentine Omonya</p>
                                 <span>Nairobi, Kenya</span>
                                 <span>38k followers</span>
-                                <button><i class="fa fa-plus" aria-hidden="true"></i>Follow</button>
+                                <button><i className="fa fa-plus" aria-hidden="true"></i>Follow</button>
                             </div>
                         </div>
 
@@ -269,12 +270,12 @@ COURSE SECTION
             {/* <!--============================
    FOOTER SECTION
    ============================ --> */}
-            <footer id="footer" class="footer">
-                <div class="copyright">
+            <footer id="footer" className="footer">
+                <div className="copyright">
                     <p> © Copyright <strong>Deval Academy</strong>. All Rights Reserved</p>
                 </div>
 
-                <div class="credits">
+                <div className="credits">
                     <p> Designed by <a href="https://youtube.com/@devalentineomonya" target="_blank">Valentine Omonya</a></p>
                 </div>
             </footer>
